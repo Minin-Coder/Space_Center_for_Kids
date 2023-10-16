@@ -1,0 +1,114 @@
+.topSection {
+  background-image: url('./Images/OurTomorrow.png');
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+}
+.gif img {
+  height: 250px;
+}
+body {
+  background-color: #02186b !important;
+}
+.headingtext h6 {
+  font-family: Poppins;
+  visibility: visible;
+  text-align: left;
+  line-height: 39px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.headingtext h2 {
+  color: rgb(226, 56, 90);
+  text-align: left;
+  font-weight: bolder;
+}
+
+.TouchBtn {
+  background: rgb(226, 56, 90) !important;
+  font-size: 22px !important;
+  color: #ffff !important;
+  outline: none;
+  border-radius: 25px !important;
+  padding: 6px 15px !important;
+  width: 10rem;
+}
+.TouchBtn:hover {
+  background-color: red !important;
+}
+.CoursesBtn {
+  background-color: rgb(136, 155, 204) !important;
+  font-size: 24px !important;
+  color: #ffff !important;
+  outline: none;
+  border-radius: 25px !important;
+  padding: 6px 19px !important;
+  width: 8rem;
+}
+.CoursesBtn:hover {
+  background-color: rgb(103, 119, 160) !important;
+}
+
+.topSecond {
+  text-align: start;
+  margin-top: 20rem !important;
+}
+.topSecond h2 {
+  color: #ffffff;
+
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.topSecond p {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 45px;
+}
+.topSecond span {
+  color: #ef79a6;
+  font-weight: 800;
+}
+.Histroy {
+  color: #ffff !important;
+  font-size: 22px !important;
+}
+
+.textPink {
+  color: #ef79a6 !important;
+}
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+.Carosul {
+  background-color: #ffffff;
+}
